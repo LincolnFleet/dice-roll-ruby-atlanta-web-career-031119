@@ -13,3 +13,5 @@ def roll_set(count, sides=20)
   count.times.push.rand(1..sides)
   print result
 end
+
+roll_set(3, 6)
