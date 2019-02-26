@@ -11,7 +11,7 @@ end
 def roll_set(count, sides=20)
   result = []
   count.times do
-    result = push.rand(1..sides)
+    result.push(rand(1..sides))
   end
   print result
 end
