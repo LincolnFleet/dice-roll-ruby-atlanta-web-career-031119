@@ -16,4 +16,4 @@ def roll_set(count, sides=20)
   print result
 end
 
-roll_set(3, 6)
+roll_set(12)
